@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="no.hvl.stud.springbootDemo.SpringbootDemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-09T07:18:43" hostname="penguin-B" time="0.002">
+  <properties/>
+  <testcase name="contextLoads()" classname="no.hvl.stud.springbootDemo.SpringbootDemoApplicationTests" time="0.002"/>
+  <system-out><![CDATA[2024-09-09T09:18:43.053+02:00  INFO 65907 --- [springbootDemo] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [no.hvl.stud.springbootDemo.SpringbootDemoApplicationTests]: SpringbootDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-09-09T09:18:43.054+02:00  INFO 65907 --- [springbootDemo] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration no.hvl.stud.springbootDemo.SpringbootDemoApplication for test class no.hvl.stud.springbootDemo.SpringbootDemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-09-09T09:18:43.077+02:00  INFO 65907 --- [springbootDemo] [    Test worker] n.h.s.s.SpringbootDemoApplicationTests   : Starting SpringbootDemoApplicationTests using Java 22.0.1-ga with PID 65907 (started by tesdap in /home/tesdap/projects/uni/DAT250/oblig/assignment2/DAT250---Assignment-2)
+2024-09-09T09:18:43.077+02:00  INFO 65907 --- [springbootDemo] [    Test worker] n.h.s.s.SpringbootDemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-09-09T09:18:43.205+02:00  INFO 65907 --- [springbootDemo] [    Test worker] n.h.s.s.SpringbootDemoApplicationTests   : Started SpringbootDemoApplicationTests in 0.148 seconds (process running for 2.391)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
