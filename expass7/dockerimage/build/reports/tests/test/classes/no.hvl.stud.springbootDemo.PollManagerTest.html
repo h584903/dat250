@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - PollManagerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>PollManagerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/no.hvl.stud.springbootDemo.html">no.hvl.stud.springbootDemo</a> &gt; PollManagerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.699s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAddVoteToPoll()</td>
+<td class="success">0.679s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCreateNewPoll()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCreateNewUser()</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeletePoll()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>15:00:01.727 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [no.hvl.stud.springbootDemo.PollManagerTest]: PollManagerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:00:01.781 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration no.hvl.stud.springbootDemo.SpringbootDemoApplication for test class no.hvl.stud.springbootDemo.PollManagerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-10-13T15:00:02.035+02:00  INFO 78261 --- [springbootDemo] [    Test worker] n.h.stud.springbootDemo.PollManagerTest  : Starting PollManagerTest using Java 22.0.2-ga with PID 78261 (started by tesdap in /home/tesdap/projects/uni/DAT250/expass7/dockerimage)
+2024-10-13T15:00:02.036+02:00  INFO 78261 --- [springbootDemo] [    Test worker] n.h.stud.springbootDemo.PollManagerTest  : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-10-13T15:00:02.813+02:00  INFO 78261 --- [springbootDemo] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-13T15:00:02.813+02:00  INFO 78261 --- [springbootDemo] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-13T15:00:02.816+02:00  INFO 78261 --- [springbootDemo] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-10-13T15:00:02.847+02:00  INFO 78261 --- [springbootDemo] [    Test worker] n.h.stud.springbootDemo.PollManagerTest  : Started PollManagerTest in 0.995 seconds (process running for 1.584)
+Add user: tester,tester@example.com
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Poll created: no.hvl.stud.springbootDemo.domains.PollApp$Poll@2d9de284 by user: tester
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Add user: tester,tester@example.com
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Poll created: no.hvl.stud.springbootDemo.domains.PollApp$Poll@64757d56 by user: tester
+Add user: tester,tester@example.com
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Poll created: no.hvl.stud.springbootDemo.domains.PollApp$Poll@4813d0 by user: tester
+Add user: tester,tester@example.com
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>WARNING: A Java agent has been loaded dynamically (/home/tesdap/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.19/154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1/byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at Oct 13, 2024, 3:00:03 PM</p>
+</div>
+</div>
+</body>
+</html>

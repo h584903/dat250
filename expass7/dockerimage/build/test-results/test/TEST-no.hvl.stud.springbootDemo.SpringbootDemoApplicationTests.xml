@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="no.hvl.stud.springbootDemo.SpringbootDemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-13T13:00:03" hostname="penguin-B" time="0.004">
+  <properties/>
+  <testcase name="contextLoads()" classname="no.hvl.stud.springbootDemo.SpringbootDemoApplicationTests" time="0.004"/>
+  <system-out><![CDATA[2024-10-13T15:00:03.576+02:00  INFO 78261 --- [springbootDemo] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [no.hvl.stud.springbootDemo.SpringbootDemoApplicationTests]: SpringbootDemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-13T15:00:03.578+02:00  INFO 78261 --- [springbootDemo] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration no.hvl.stud.springbootDemo.SpringbootDemoApplication for test class no.hvl.stud.springbootDemo.SpringbootDemoApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-10-13T15:00:03.612+02:00  INFO 78261 --- [springbootDemo] [    Test worker] n.h.s.s.SpringbootDemoApplicationTests   : Starting SpringbootDemoApplicationTests using Java 22.0.2-ga with PID 78261 (started by tesdap in /home/tesdap/projects/uni/DAT250/expass7/dockerimage)
+2024-10-13T15:00:03.612+02:00  INFO 78261 --- [springbootDemo] [    Test worker] n.h.s.s.SpringbootDemoApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-10-13T15:00:03.852+02:00  INFO 78261 --- [springbootDemo] [    Test worker] n.h.s.s.SpringbootDemoApplicationTests   : Started SpringbootDemoApplicationTests in 0.268 seconds (process running for 2.589)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

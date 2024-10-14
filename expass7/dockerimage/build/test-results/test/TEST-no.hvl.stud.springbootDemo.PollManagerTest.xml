@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="no.hvl.stud.springbootDemo.PollManagerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-10-13T13:00:02" hostname="penguin-B" time="0.704">
+  <properties/>
+  <testcase name="testAddVoteToPoll()" classname="no.hvl.stud.springbootDemo.PollManagerTest" time="0.679"/>
+  <testcase name="testDeletePoll()" classname="no.hvl.stud.springbootDemo.PollManagerTest" time="0.007"/>
+  <testcase name="testCreateNewPoll()" classname="no.hvl.stud.springbootDemo.PollManagerTest" time="0.008"/>
+  <testcase name="testCreateNewUser()" classname="no.hvl.stud.springbootDemo.PollManagerTest" time="0.005"/>
+  <system-out><![CDATA[15:00:01.727 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [no.hvl.stud.springbootDemo.PollManagerTest]: PollManagerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:00:01.781 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration no.hvl.stud.springbootDemo.SpringbootDemoApplication for test class no.hvl.stud.springbootDemo.PollManagerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-10-13T15:00:02.035+02:00  INFO 78261 --- [springbootDemo] [    Test worker] n.h.stud.springbootDemo.PollManagerTest  : Starting PollManagerTest using Java 22.0.2-ga with PID 78261 (started by tesdap in /home/tesdap/projects/uni/DAT250/expass7/dockerimage)
+2024-10-13T15:00:02.036+02:00  INFO 78261 --- [springbootDemo] [    Test worker] n.h.stud.springbootDemo.PollManagerTest  : No active profile set, falling back to 1 default profile: "default"
+2024-10-13T15:00:02.813+02:00  INFO 78261 --- [springbootDemo] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-10-13T15:00:02.813+02:00  INFO 78261 --- [springbootDemo] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-13T15:00:02.816+02:00  INFO 78261 --- [springbootDemo] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-10-13T15:00:02.847+02:00  INFO 78261 --- [springbootDemo] [    Test worker] n.h.stud.springbootDemo.PollManagerTest  : Started PollManagerTest in 0.995 seconds (process running for 1.584)
+Add user: tester,tester@example.com
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Poll created: no.hvl.stud.springbootDemo.domains.PollApp$Poll@2d9de284 by user: tester
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Add user: tester,tester@example.com
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Poll created: no.hvl.stud.springbootDemo.domains.PollApp$Poll@64757d56 by user: tester
+Add user: tester,tester@example.com
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+Poll created: no.hvl.stud.springbootDemo.domains.PollApp$Poll@4813d0 by user: tester
+Add user: tester,tester@example.com
+Get user testerusers {tester=User{username='tester', email='tester@example.com'}}
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/tesdap/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.19/154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1/byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
